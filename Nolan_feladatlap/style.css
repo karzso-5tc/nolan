@@ -1,7 +1,7 @@
     
 h2 {
     font-family: 'Orbitron';font-size: 22px;
-    font-size: larger;
+    font-size: x-large;
     letter-spacing: 3px; 
     margin-top: 20px;
     margin-bottom: 20px;
@@ -22,11 +22,14 @@ h5 {
     background-color: #1e1e1e;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 10px 10px 15px #787878
+    box-shadow: 10px 10px 15px #787878;
+    transition: transform 0.5s;
 }
 
 .film-box:hover {
-    box-shadow: 15px 15px 5px red;
+    box-shadow: 15px 15px 7px red;
+    transform: scale(1.1);
+    background-color: #424242;
 }
 
 .cim {
